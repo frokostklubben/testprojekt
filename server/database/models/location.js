@@ -1,6 +1,6 @@
 import { DataTypes } from 'sequelize';
 import sequelize from '../database.js';
-import eveningSchool from './eveningSchool.js';
+import eveningSchool from './school.js';
 
 const location = sequelize.define(
   'Location',
